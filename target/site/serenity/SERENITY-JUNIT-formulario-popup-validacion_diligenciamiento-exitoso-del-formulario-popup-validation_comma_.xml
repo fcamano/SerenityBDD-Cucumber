@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Formulario Popup Validacion" skipped="0" tests="2" time="65.1" timestamp="2020-05-20T16:55:11.512491-05:00[America/Chicago]"><testcase name="Diligenciamiento exitoso del formulario Popup Validation,"><failure message="&#10;Expected: is &lt;false&gt;&#10;     but: was &lt;true&gt;" type="java.lang.AssertionError">
+Expected: is &lt;false&gt;
+     but: was &lt;true&gt;</failure><system-err>
+Expected: is &lt;false&gt;
+     but: was &lt;true&gt;&#13;
+com.choucair.formacion.pageobjects.ColorlibFormValidationPage.form_sin_errores(ColorlibFormValidationPage.java:152)&#13;
+com.choucair.formacion.steps.colorlibFormValidationSteps.verificar_ingreso_datos_formulario_exitoso(colorlibFormValidationSteps.java:36)&#13;
+com.choucair.formacion.definition.PopupValidationDefinition.verifico_ingreso_exitoso(PopupValidationDefinition.java:48)&#13;
+✽.Then Verifico ingreso exitoso(src/test/resources/features/Colorlib/Forms/PopupValidation.feature:19)&#13;
+</system-err></testcase><testcase name="Diligenciamiento exitoso del formulario Popup Validation,"/></testsuite>
